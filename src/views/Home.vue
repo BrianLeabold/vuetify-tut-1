@@ -1,18 +1,25 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="../assets/logo.png" />
+    <h1 class="display-4">Home Page</h1>
+    <p class="green--text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum neque deleniti quaerat et excepturi incidunt quam, consequuntur quae praesentium tempora sunt maiores architecto alias iste doloremque minima soluta officia?
+      <v-btn class="hidden-sm-and-down">hide on sm-and-down</v-btn>
+      <v-btn class="hidden-sm-only">hidden on sm only</v-btn>
+    </p>
+
+    <p class="red darken-2 pink--text text--lighten-5">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat accusantium dolore saepe iste et! Est, facere sunt quam eveniet aspernatur incidunt possimus fuga quas nobis consequatur atque suscipit id laudantium.
+      <v-btn class="hidden-md-and-up">hide on md-and-up</v-btn>
+    </p>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'home',
-  components: {
-    HelloWorld
-  }
-}
+  name: "home",
+  components: {}
+};
 </script>

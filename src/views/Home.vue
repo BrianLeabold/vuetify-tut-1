@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
-    <h1 class="display-4">Home Page</h1>
+    <h2 class="display-4">Home Page</h2>
     <p class="green--text">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorum neque deleniti quaerat et excepturi incidunt quam, consequuntur quae praesentium tempora sunt maiores architecto alias iste doloremque minima soluta officia?
       <v-btn class="hidden-sm-and-down">hide on sm-and-down</v-btn>
